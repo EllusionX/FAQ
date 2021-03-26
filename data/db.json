@@ -1,0 +1,29 @@
+{
+    "faq": [
+        {
+            "id": 1,
+            "title": "How many team members can I invite?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu fermentum leo. Quisque feugiat orci malesuada libero tempus tempus. Etiam et efficitur arcu. Aliquam in orci consequat, scelerisque justo vel, porttitor erat. Nam augue tortor, interdum ut diam sit amet."
+        },
+        {
+            "id": 2,
+            "title": "What is the maximum file upload size?",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu fermentum leo. Quisque feugiat orci malesuada libero tempus tempus. Etiam et efficitur arcu. Aliquam in orci consequat, scelerisque justo vel, porttitor erat. Nam augue tortor, interdum ut diam sit amet."
+        },
+        {
+            "id": 3,
+            "title": "How do I reset my password?",
+            "body": "porta aliquam quam. Sed quis porttitor ante, at laoreet augue. Phasellus eu ipsum risus. Vivamus ut sem aliquam, porta sem et, ullamcorper urna. Nam et ligula id metus volutpat dapibus ut et lorem. Cras in magna rhoncus, posuere neque a."
+        },
+        {
+            "id": 4,
+            "title": "Can I cancel my subscription?",
+            "body": "Pellentesque viverra sapien nec risus ullamcorper, sed ultrices lorem luctus. Pellentesque vestibulum nunc non felis sodales dignissim. Vestibulum euismod sem nisl, sit amet tincidunt urna finibus sed. Vestibulum lobortis lacus quis facilisis laoreet. Praesent nulla urna."
+        },
+        {
+            "id": 5,
+            "title": "Do you provide additional support?",
+            "body": "Suspendisse tincidunt interdum purus. Phasellus bibendum, turpis eleifend fermentum hendrerit, lorem quam aliquet risus, vitae rutrum nisl erat ac felis. Nulla facilisi. Nulla ut lectus vulputate eros viverra commodo."
+        }
+    ]
+}
