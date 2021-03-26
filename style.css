@@ -22,10 +22,6 @@ ul {
     margin: 1.5rem auto;
 }
 
-.container header {
-    margin: 0 0 2rem 0;
-}
-
 /* image header */
 .image-header {
     width: 150px;
@@ -39,14 +35,7 @@ ul {
     object-fit: cover;
 }
 
-section header .title {
-    font-size: 2rem;
-    text-align: center;
-    margin: 0 0 1rem 0;
-}
-
-
-/* FAQ */
+/* main section */
 section {
     background: #fff;
     border-radius: 10px;
@@ -54,6 +43,13 @@ section {
     box-shadow: 0px 15px 10px rgba(133, 47, 47, 0.25);
 }
 
+section .title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+/* FAQ */
 .faq-item li {
     display: flex;
     align-items: center;
@@ -69,11 +65,12 @@ section {
 
 .faq-item li,
 .faq-item .faq-item-content {
-    padding: 0.8rem 0;
+    padding: 1rem 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .faq-item li p,
+.faq-item li i,
 .faq-item .faq-item-content{
     font-size: 0.9rem;
 }
@@ -111,5 +108,62 @@ section {
     display: block;
 }
 
+/* Media Queries */
+@media (min-width: 768px) {
+    section {
+        padding: 2.5rem;
+    }
 
+    section .title {
+        font-size: 2.5rem;
+    }
 
+    /* image header */
+    .image-header {
+        width: 300px;
+        height: 300px;
+    }
+
+    .faq-item li p,
+    .faq-item li i,
+    .faq-item .faq-item-content{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1080px) {
+
+    /* main section */
+    section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* image header */
+    .image-header {
+        width: 500px;
+        height: 500px;
+        margin-left: -2em;
+    }
+
+    /* section title "FAQ" */
+    section .title {
+        text-align: start;
+        font-size: 3rem;
+    }
+
+    /* FAQ */
+    .faq-container {
+        flex: 1;
+    }
+
+    .faq-item li p,
+    .faq-item li i,
+    .faq-item .faq-item-content{
+        font-size: 1.4rem;
+    }
+
+}
